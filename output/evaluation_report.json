@@ -1,11 +1,11 @@
 {
   "ADDRESS": {
     "tp": 4,
-    "fp": 127,
+    "fp": 139,
     "fn": 0,
-    "precision": 0.0305,
+    "precision": 0.028,
     "recall": 1.0,
-    "f1": 0.0593
+    "f1": 0.0544
   },
   "DATE_OF_BIRTH": {
     "tp": 2,
@@ -25,7 +25,7 @@
   },
   "ORG": {
     "tp": 0,
-    "fp": 885,
+    "fp": 887,
     "fn": 0,
     "precision": 0.0,
     "recall": 0.0,
@@ -33,26 +33,26 @@
   },
   "PERSON": {
     "tp": 4,
-    "fp": 776,
+    "fp": 905,
     "fn": 0,
-    "precision": 0.0051,
+    "precision": 0.0044,
     "recall": 1.0,
-    "f1": 0.0102
+    "f1": 0.0088
   },
   "PHONE": {
     "tp": 2,
-    "fp": 56,
+    "fp": 68,
     "fn": 0,
-    "precision": 0.0345,
+    "precision": 0.0286,
     "recall": 1.0,
-    "f1": 0.0667
+    "f1": 0.0556
   },
   "OVERALL": {
     "tp": 20,
-    "fp": 1971,
+    "fp": 2126,
     "fn": 0,
-    "precision": 0.01,
+    "precision": 0.0093,
     "recall": 1.0,
-    "f1": 0.0199
+    "f1": 0.0185
   }
 }

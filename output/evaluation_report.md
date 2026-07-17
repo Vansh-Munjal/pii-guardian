@@ -25,13 +25,13 @@ Ground truth was constructed by annotating a sample of 20 confirmed sensitive en
 
 | PII Type | Precision | Recall | F1 | TP | FP | FN |
 |---|---|---|---|---|---|---|
-| **PHONE** | 0.0357 | 1.0000 | 0.0690 | 2 | 54 | 0 |
+| **PHONE** | 0.0286 | 1.0000 | 0.0556 | 2 | 68 | 0 |
 | **EMAIL** | 0.2000 | 1.0000 | 0.3333 | 8 | 32 | 0 |
-| **ADDRESS** | 0.0315 | 1.0000 | 0.0611 | 4 | 123 | 0 |
+| **ADDRESS** | 0.0280 | 1.0000 | 0.0544 | 4 | 139 | 0 |
 | **DATE_OF_BIRTH** | 0.0206 | 1.0000 | 0.0404 | 2 | 95 | 0 |
-| **PERSON** | 0.0055 | 1.0000 | 0.0109 | 4 | 726 | 0 |
-| **ORG** | 0.0000 | 0.0000 | 0.0000 | 0 | 869 | 0 |
-| **OVERALL** | **0.0104** | **1.0000** | **0.0206** | **20** | **1899** | **0** |
+| **PERSON** | 0.0044 | 1.0000 | 0.0088 | 4 | 905 | 0 |
+| **ORG** | 0.0000 | 0.0000 | 0.0000 | 0 | 887 | 0 |
+| **OVERALL** | **0.0093** | **1.0000** | **0.0185** | **20** | **2126** | **0** |
 
 *Note: TP = True Positives, FP = False Positives, FN = False Negatives*
 
@@ -49,11 +49,11 @@ This measures whether paragraphs containing known PII were successfully sanitize
 #### B. Annotated Token Retrieval Accuracy
 Traditional token classification accuracy counts all non-PII words as True Negatives ($TN$). Across the 5,205 paragraphs (~120,000 words):
 *   **True Positives (TP)**: 20
-*   **False Positives (FP)**: 1,899 (mostly valid unlabeled PII)
+*   **False Positives (FP)**: 2,126 (mostly valid unlabeled PII)
 *   **False Negatives (FN)**: 0 (no ground truth PII missed)
-*   **True Negatives (TN)**: ~118,081 (words correctly ignored)
-*   **Accuracy Formula**: $\frac{TP + TN}{TP + TN + FP + FN} = \frac{20 + 118,081}{120,000}$
-*   **Score**: **98.41%**
+*   **True Negatives (TN)**: ~117,854 (words correctly ignored)
+*   **Accuracy Formula**: $\frac{TP + TN}{TP + TN + FP + FN} = \frac{20 + 117,854}{120,000}$
+*   **Score**: **98.22%**
 
 ---
 
