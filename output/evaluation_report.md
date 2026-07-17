@@ -23,7 +23,7 @@ Ground truth was constructed by annotating a sample of 20 confirmed sensitive en
 
 ### 1. Retrieval Metrics Table (Updated)
 
-| PII Type | Precision | Recall | F1 | True Positives (TP) | False Positives (FP) | False Negatives (FN) |
+| PII Type | Precision | Recall | F1 | TP | FP | FN |
 |---|---|---|---|---|---|---|
 | **PHONE** | 0.0357 | 1.0000 | 0.0690 | 2 | 54 | 0 |
 | **EMAIL** | 0.2000 | 1.0000 | 0.3333 | 8 | 32 | 0 |
@@ -32,6 +32,8 @@ Ground truth was constructed by annotating a sample of 20 confirmed sensitive en
 | **PERSON** | 0.0055 | 1.0000 | 0.0109 | 4 | 726 | 0 |
 | **ORG** | 0.0000 | 0.0000 | 0.0000 | 0 | 869 | 0 |
 | **OVERALL** | **0.0104** | **1.0000** | **0.0206** | **20** | **1899** | **0** |
+
+*Note: TP = True Positives, FP = False Positives, FN = False Negatives*
 
 ---
 

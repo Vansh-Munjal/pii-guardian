@@ -1,6 +1,7 @@
 from faker import Faker
 
 fake = Faker("en_IN")   # Indian locale for realistic Indian names/addresses
+fake.seed_instance(42)  # Ensures deterministic outputs across multiple runs
 
 # Cache ensures the same original PII always gets the same fake replacement
 # throughout the entire document — critical for consistency.
