@@ -1,0 +1,6 @@
+python-docx==1.1.2
+spacy==3.8.7
+faker==37.4.0
+click==8.4.2
+streamlit==1.42.0
+

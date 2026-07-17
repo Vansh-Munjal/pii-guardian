@@ -1,0 +1,22 @@
+[
+  {"text": "Abhijit Diwan",                "type": "PERSON"},
+  {"text": "Ajay Menon",                   "type": "PERSON"},
+  {"text": "Ajay Shriram Patil",           "type": "PERSON"},
+  {"text": "Amod Joshi",                   "type": "PERSON"},
+  {"text": "Ipocmg@icicibank.com",         "type": "EMAIL"},
+  {"text": "Sarthak.malvadkar@kshinterantional.com", "type": "EMAIL"},
+  {"text": "anand.soni@bajajfinserv.in",   "type": "EMAIL"},
+  {"text": "ashishmp@federalbank.co.in",   "type": "EMAIL"},
+  {"text": "cherag.gyara@icicibank.com",   "type": "EMAIL"},
+  {"text": "cs.connect@kshinternational.com", "type": "EMAIL"},
+  {"text": "customercare@icicisecurities.com", "type": "EMAIL"},
+  {"text": "customerservice.mb@nuvama.com","type": "EMAIL"},
+  {"text": "+91 81081 14949",              "type": "PHONE"},
+  {"text": "+ 91 8879770456",              "type": "PHONE"},
+  {"text": "August 25, 1979",             "type": "DATE_OF_BIRTH"},
+  {"text": "August 6, 1982",              "type": "DATE_OF_BIRTH"},
+  {"text": "Bandra",                      "type": "ADDRESS"},
+  {"text": "Bandra East",                 "type": "ADDRESS"},
+  {"text": "Pune",                        "type": "ADDRESS"},
+  {"text": "Ahmednagar",                  "type": "ADDRESS"}
+]
